@@ -5,12 +5,21 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
-  
-  </header>
 
+  
+
+
+    <div class="wrapper">
+      <!-- <RouterLink to="/">Home</RouterLink> -->
+    </div>
+
+  </header>
   <RouterView />
 </template>
 
+
 <style scoped>
+
+@import './assets/bootstrap.min.css';
 
 </style>
